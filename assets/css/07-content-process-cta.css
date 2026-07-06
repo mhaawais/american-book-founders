@@ -1,0 +1,220 @@
+.content-area {background: linear-gradient(180deg, #f4f7fb 0%, #ffffff 100%);}
+.content-area .main_jar{
+    position: relative;
+    z-index: 1;
+}
+.content-area .text-box.chg {
+    background: #ffffff;
+    left: 7px;
+}
+.content-area .text-box {
+    height: 170px;
+    width: 80px;
+    border-radius: 100px;
+    background: #091f44;
+    position: absolute;
+    z-index: -1;
+    left: -27px;
+}
+.content-area .h5 {
+    color: #171717;
+    line-height: 44px !important;
+    font-size: 34px !important;
+}
+.content-area .text-box:hover {
+    background: #fff;
+    box-shadow: -1px -1px 18px 1px rgba(0, 0, 0, .08)
+}
+
+.content-area .text-box .h5 {
+    line-height: 30px !important
+}
+
+.process-area .lines {
+    position: relative
+}
+
+.process-area .h2 {
+    color: #171717;
+    display: block !important;
+}
+
+.process-area .h2:after {
+    background: linear-gradient(90deg, #091f44 0%, #0c2043 55%, #a81821 100%);
+    border-radius: 999px;
+    content: "";
+    display: block;
+    height: 5px;
+    margin: 16px auto 0;
+    width: 92px;
+}
+
+.process-area p {
+    color: #3d3d3d;
+    font-size: 20px !important;
+    line-height: 32px;
+}
+
+.process-area .lines:before {
+    background: url(../images/bg/dashed-arrows.html) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    content: "";
+    height: 104px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80%;
+    z-index: -1
+}
+
+.process-area .lines .col-12.col-lg-4.col-md-6 {
+    position: relative;
+    margin: 0px 0px 40px;
+}
+
+.process-area .gx-5 {
+    --bs-gutter-x: 7rem
+}
+
+.process-area .number {
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 12px 32px -5px rgba(0, 0, 0, .28);
+    color: #a81821;
+    display: flex;
+    font-size: 30px;
+    height: 80px;
+    justify-content: center;
+    margin: 0 auto 55px;
+    position: relative;
+    width: 80px
+}
+
+.process-area .lines .col-12.col-lg-4.col-md-6 {
+    background: #fff;
+    border: 1px solid rgba(153, 0, 0, .1);
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .055);
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+.process-area .process-num {
+    color: #a81821;
+    font-size: 22px;
+    font-weight: 600;
+    left: 25%;
+    position: absolute;
+    right: 0;
+    top: -25px
+}
+
+.process-area .btn-live {
+    padding: 12px 55px !important
+}
+
+
+@media(min-width:992px)and (max-width:1199px) {
+    .process-area .gx-5 {
+        --bs-gutter-x: 0rem
+    }
+}
+
+@media(max-width:991px) {
+    .process-area .lines:before {
+        content: none
+    }
+
+    .process-area .process-num {
+        left: 0;
+        padding-bottom: 18px;
+        position: relative;
+        right: 0;
+        top: 0
+    }
+
+    .process-area .number {
+        margin: 0 auto 30px
+    }
+}
+/* cta-service */
+.cta-service {
+    background: linear-gradient(110deg, #091f44 0%, #0c2043 58%, #a81821 100%);
+    background-blend-mode: color;
+    position: relative;
+    z-index: 9;
+}
+.cta-service::after{
+    background: url(../images/simple/cta-before.webp) no-repeat;
+    background-position: left;
+    background-size: contain;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity:1;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    z-index: -1;
+}
+.cta-service::before{
+    background: url(../images/simple/cta-after.webp) no-repeat;
+    background-position: right;
+    background-size: contain;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity:1;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    z-index: -1;
+}
+.cta-service .h2 {
+    color: #fff;
+    display: block !important;
+    margin-bottom: 8px !important
+}
+
+.cta-service .h5 {
+    color: #fff;
+    font-family: roboto;
+    margin-bottom: 25px !important
+}
+
+.cta-service .btn-call {
+    background: #a81821;
+}
+
+.cta-service .btn-call i {
+    height: 35px;
+    width: 35px
+}
+
+.cta-service .btn-call .small,
+.cta-service .btn-call small,
+.cta-service .btn-call span {
+    color: #fff !important
+}
+
+.cta-service .btn-call:hover {
+    border: 2px solid #a81821;
+    background: transparent;
+}
+
+.cta-service .btn-live {
+    border: 2px solid #fff !important;
+}
+
+.cta-service .btn-live:hover {
+    background: #fff !important
+}
+
+@media(max-width:575px) {
+}
+/* cta-service */
+/* main-banner-pattern */

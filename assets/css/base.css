@@ -1,0 +1,81 @@
+@font-face {
+    font-display: swap;
+    font-family: "tilt-warp";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/vendor/tilt-warp/tilt-warp-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/vendor/roboto/roboto-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/vendor/roboto/roboto-medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/vendor/roboto/roboto-bold.woff2") format("woff2");
+}
+
+.img-blend {
+        mix-blend-mode: multiply;
+}
+
+.iti--allow-dropdown {
+    width: 100%;
+}
+.ct-slider-img-h {
+    object-fit: cover;
+    object-position: center;
+    max-height: 450px;
+}
+
+label.error {
+    color: red !important;
+    font-size: 12px !important;
+    text-align: left !important;
+}
+
+.sec-thanks {
+    min-height: 100vh;
+    align-content: center;
+}
+.sec-thanks .desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sec-thanks .desc .logo {
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 20px;
+}
+.sec-thanks .desc h1 {
+    text-transform: capitalize;
+    font-size: clamp(24px,8vw,70px);
+    color: #000;
+    margin-bottom: 20px;
+}
+.sec-thanks .desc h6 {
+    text-transform: capitalize;
+    font-size: clamp(16px,2vw,40px);
+    margin-bottom: 20px;
+}
+
+.sec-thanks .desc a {
+    max-width: 200px;
+    margin: 0 auto;

@@ -1,0 +1,26 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local runtime/dependency folders
+node_modules/
+vendor/
+
+# Local build/cache output
+.vercel/
+dist/
+build/
+.cache/
+
+# Source content docs not needed for static hosting
+*.docx
+  
+  #ABF
+Landing Page content - ABF.docx

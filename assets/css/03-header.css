@@ -1,0 +1,297 @@
+header {
+    background: transparent;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999
+}
+
+header .top-bar {
+    background: linear-gradient(90deg, rgb(145, 0, 0) 0%, rgb(149, 0, 0) 48%, rgb(153, 0, 0) 100%);
+    padding: 10px 0;
+}
+
+header .top-bar .menu-right {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+header .top-bar .menu-right .social-icons {
+    align-items: center;
+    display: flex;
+    gap: 10px
+}
+
+header .top-bar .menu-right .social-icons .h6 {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin: 0 8px 0 0 !important;
+}
+
+header .top-bar .menu-right .social-icons a {
+    align-items: center;
+    background: rgba(255, 255, 255, .95) !important;
+    border: 2px solid rgba(255, 255, 255, .95);
+    border-radius: 50%;
+    display: flex;
+    gap: 6px;
+    height: 45px;
+    justify-content: center;
+    transition: .5s;
+    width: 45px;
+    color: #091f44;
+    font-size: 20px;
+}
+
+header .top-bar .menu-right .social-icons a:hover {
+    background-color: #a81821 !important;
+    border-color: #a81821;
+}
+
+header .top-bar .menu-right .social-icons a:hover i {
+    color: #fff;
+}
+
+header .top-bar .menu-right .connect {
+    display: flex;
+    gap: 20px;
+    margin: 0 20px 0 0
+}
+
+header .top-bar .menu-right .connect a i {
+    font-size: 25px;
+}
+
+header .top-bar .menu-right .connect a span {
+    margin-top: 2px;
+}
+
+header .top-bar .menu-right .connect .mail {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 10px;
+    transition: color .25s ease, transform .25s ease;
+}
+
+header .top-bar .menu-right .connect .mail img {
+    filter: invert(1)
+}
+
+header .top-bar .menu-right .connect .call-us {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+    transition: color .25s ease, transform .25s ease;
+}
+
+header .top-bar .menu-right .connect .mail:hover,
+header .top-bar .menu-right .connect .call-us:hover {
+    color: #ffd7d7;
+    transform: translateY(-1px);
+}
+
+header .top-bar .menu-right .connect .call-us .fa-phone {
+    transform: rotate(90deg)
+}
+
+header .navbar {
+    background: #fff;
+    padding: 15px 0;
+    position: relative;
+}
+.order_logo {
+    width: 260px;
+    object-fit: contain;
+}
+header .navbar .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 8px;
+    padding: 14px 0;
+    transition: color 1s
+}
+
+header .navbar .nav-link:hover {
+    color: #a81821;
+}
+
+header .navbar .btn-call {
+    margin-top: unset;
+    padding: 0 30px 0 0 !important
+}
+
+header .navbar .btn-call i {
+    height: 35px;
+    width: 35px
+}
+
+header .navbar .btn-call span {
+    color: #091f44 !important;
+    font-size: 16px
+}
+
+header .navbar .btn-call:hover {
+    background: transparent;
+    padding: unset
+}
+
+header .navbar .btn-chat {
+    align-items: center;
+    background-color: transparent;
+    border: 0 solid transparent;
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    gap: 6px;
+    margin-left: 20px;
+    margin-right: 35px;
+    padding: 0;
+    position: relative;
+    color: #091f44;
+}
+
+header .navbar .btn-chat:after {
+    animation: pulsate 1.4s ease-out;
+    animation-iteration-count: infinite;
+    background: #55e725;
+    border: 2px solid #39c60b;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    height: 12px;
+    left: 18px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 12px
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0;
+        transform: scale(.5)
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1)
+    }
+}
+
+header .navbar .btn-chat img {
+    width: 32px
+}
+
+header .navbar .round {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+    margin-top: 12px !important;
+    position: relative
+}
+
+header .navbar .round:before {
+    background: #2dc52d;
+    border-radius: 10px;
+    content: "";
+    height: 12px;
+    left: 5px;
+    position: absolute;
+    top: -3px;
+    width: 12px;
+    z-index: 1
+}
+
+header .navbar .btn-order {
+    overflow: hidden;
+    padding: 10px 32px !important;
+    position: relative
+}
+
+header .navbar .btn-order:after {
+    animation: slide 1s infinite;
+    background: linear-gradient(90deg, rgba(253, 255, 255, 0) 0, hsla(0, 0%, 100%, .41) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0));
+    content: "";
+    height: 60px;
+    position: absolute;
+    top: 0;
+    transform: translateX(100%);
+    width: 100%;
+    z-index: 1
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%)
+    }
+
+    to {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(.9)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+
+    to {
+        transform: scale(.9)
+    }
+}
+
+header .navbar .navbar-nav li {
+    margin-bottom: 0 !important
+}
+
+header .navbar .dropdown:hover .dropdown-menu {
+    display: block
+}
+
+header.fixed-top {
+    background: #fff;
+    border-bottom: 1px solid rgba(88, 53, 110, .349);
+    transition: background-color 1s
+}
+
+header.fixed-top .navbar {
+    background: #fff !important;
+    border-bottom: unset
+}
+header.fixed-top .navbar .nav-link {
+    color: #000;
+}
+
+header.fixed-top .navbar button.btn-chat {
+    color: #000;
+}
+@media(min-width:992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 50px;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+        background-color: #a81821;
+        color: #fff
+    }
+}

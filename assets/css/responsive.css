@@ -1,0 +1,1654 @@
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1400px) and (max-width: 1444px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    header .top-bar {
+        padding: 6px 0;
+    }
+
+    header .top-bar .menu-right .social-icons a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        font-size: 14px !important;
+        margin: 0 4px 0 0 !important;
+    }
+
+    header .top-bar .menu-right .social-icons {
+        gap: 5px;
+    }
+
+    header .top-bar .menu-right .connect .call-us {
+        gap: 4px;
+    }
+
+    header .top-bar .menu-right .connect a span {
+        font-size: 12px;
+    }
+
+    header .top-bar .menu-right .connect a i {
+        font-size: 20px;
+    }
+
+    header .top-bar .menu-right .connect .mail {
+        gap: 6px;
+    }
+
+    header .navbar .nav-link {
+        font-size: 12px;
+        margin: 0px 0px;
+        padding: 6px 0;
+    }
+
+    header .navbar .btn-chat {
+        margin-left: 15px;
+        margin-right: 25px;
+        font-size: 12px;
+    }
+
+    .order_logo {
+        width: 170px;
+    }
+
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    header .navbar .btn-order {
+        padding: 10px 20px !important;
+    }
+
+    .btn-order {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap {
+        padding: 170px 0 50px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 30px !important;
+        margin: 0px 0px 100px ! IMPORTANT;
+    }
+
+    .banner_section_wrap .off {
+        font-size: 9em;
+        right: -14px;
+        top: -150px;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        width: 496px;
+        padding: 10px 10px;
+        top: 62%;
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+    .banner_section_wrap .off-main:before {
+        width: 243px;
+        height: 48px;
+        right: -6%;
+        top: -46px;
+    }
+
+    .banner_section_wrap .off h4 {
+        font-size: 25px !important;
+        margin-top: 63%;
+    }
+
+    .btn-live {
+        font-size: 13px;
+        padding: 8px 30px !important;
+        margin: 0 !important;
+    }
+
+    .btn-call i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .btn-call {
+        font-size: 13px;
+        padding: 4px 25px 3px 5px;
+    }
+
+    .btn-call span .small,
+    .btn-call span small {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+    .btn-call:hover {
+        padding: 3px 25px 3px 5px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 13px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 24px;
+        margin-bottom: 15px !important;
+    }
+
+    ul li {
+        font-size: 13px !important;
+        margin: 0px 0px 10px;
+    }
+
+    .main-banner-pattern .h5 {
+        margin-bottom: 15px !important;
+    }
+
+    .h5,
+    h5 {
+        font-size: 18px !important;
+    }
+
+    .h2,
+    h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .main-banner-pattern {
+        padding: 80px 0px;
+    }
+
+    .main-banner-pattern form .form-control {
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0px 0px 10px !important;
+    }
+button.navbar-toggler i {
+    color: #091f44;
+    font-size: 20px;
+}
+
+.cta-service .btn-call {
+    /* width: 100%; */
+    justify-content: center;
+}
+
+section.our-services .position-relative.side-display {
+    display: block;
+}
+
+section.process-area h2.h3.d-block.mt-5 {
+    margin: 0px 0px 20px !important;
+}
+
+.service-collection {
+    padding: 30px 0 80px;
+}
+
+.service-collection .h2 {
+    margin: 0px 0px 10px !important;
+}
+
+.service-collection .services-slider .splide__track .splide__list .splide__slide img {
+    height: 100%;
+}
+
+.content-area .main_jar {
+    text-align: left;
+}
+
+footer ul {
+    padding: 20px 0 0px !important;
+}
+
+footer .social-icons {
+    margin: 0px 0px 20px;
+}
+
+.footer-bottom ul {
+    justify-content: center;
+}
+    .main-banner-pattern form {
+        max-width: 500px;
+        padding: 20px;
+    }
+
+    section.service-sec-two {
+        padding: 70px 0px 50px;
+    }
+
+    .cta-service::after {
+        height: 220px;
+        top: 45%;
+    }
+
+    .cta-service::before {
+        height: 220px;
+        right: -20px;
+        top: 12%;
+    }
+
+    .content-area .h5 {
+        line-height: 35px !important;
+        font-size: 25px !important;
+    }
+
+    .content-area .text-box {
+        height: 120px;
+        width: 49px;
+        left: -22px;
+    }
+
+    footer .cont-link {
+        font-size: 12px;
+    }
+
+    footer .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-bottom span {
+        font-size: 14px;
+    }
+
+    .footer-bottom a {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap .context_wrap h6 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        margin: 0px 0px 5px !important;
+    }
+
+    section.our-services .cards p {
+        font-size: 14px !important;
+    }
+
+    section.our-services .cards img {
+        width: 70px;
+        margin: 0px 0px 20px;
+    }
+
+    .position-relative.side-display {
+        /* justify-content: center; */
+    }
+
+    .process-area .number {
+        margin: 0 auto 30px;
+    }
+
+    section.process-area {}
+
+    section.process-area h2.h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .reviews-area .review-box p {
+        line-height: 23px;
+        font-size: 13px !important;
+    }
+
+    .reviews-area .review-box .client-name span:first-child {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header .top-bar {
+        padding: 6px 0;
+    }
+
+    header .top-bar .menu-right .social-icons a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        font-size: 14px !important;
+        margin: 0 4px 0 0 !important;
+    }
+
+    header .top-bar .menu-right .social-icons {
+        gap: 5px;
+    }
+
+    header .top-bar .menu-right .connect .call-us {
+        gap: 4px;
+    }
+
+    header .top-bar .menu-right .connect a span {
+        font-size: 12px;
+    }
+
+    header .top-bar .menu-right .connect a i {
+        font-size: 20px;
+    }
+
+    header .top-bar .menu-right .connect .mail {
+        gap: 6px;
+    }
+
+    header .navbar .nav-link {
+        font-size: 12px;
+        margin: 0px 0px;
+        padding: 6px 0;
+    }
+
+    header .navbar .btn-chat {
+        margin-left: 15px;
+        margin-right: 25px;
+        font-size: 12px;
+    }
+
+    .order_logo {
+        width: 170px;
+    }
+
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    header .navbar .btn-order {
+        padding: 10px 20px !important;
+    }
+
+    .btn-order {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap {
+        padding: 150px 0 50px;
+        height: auto;
+    }
+    .banner_section_wrap .position-relative.side-display {
+        justify-content: start;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 30px !important;
+        margin: 0px 0px 100px ! IMPORTANT;
+    }
+
+    .banner_section_wrap .off {
+        font-size: 7em;
+        right: -88px;
+        top: -142px;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        width: 450px;
+        padding: 10px 10px;
+        top: 62%;
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+    .banner_section_wrap .off-main:before {
+        width: 190px;
+        height: 36px;
+        right: -16%;
+        top: -70px;
+    }
+
+    .banner_section_wrap .off h4 {
+        font-size: 23px !important;
+        margin-top: 61%;
+    }
+
+    .btn-live {
+        font-size: 13px;
+        padding: 8px 30px !important;
+        margin: 0 !important;
+    }
+
+    .btn-call i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .btn-call {
+        font-size: 13px;
+        padding: 3px 25px 3px 5px;
+    }
+
+    .btn-call span .small,
+    .btn-call span small {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+    .btn-call:hover {
+        padding: 3px 25px 3px 5px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 10px !important;
+    }
+
+    p {
+        font-size: 13px !important;
+        line-height: 22px;
+        margin-bottom: 13px !important;
+    }
+
+    ul li {
+        font-size: 12px !important;
+        margin: 0px 0px 10px;
+    }
+
+    .main-banner-pattern .h5 {
+        margin-bottom: 15px !important;
+    }
+
+    .h5,
+    h5 {
+        font-size: 16px !important;
+    }
+
+    .h2,
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .main-banner-pattern {
+        padding: 60px 0px;
+    }
+
+    .main-banner-pattern form .form-control {
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0px 0px 10px !important;
+    }
+
+    .main-banner-pattern form {
+        max-width: 500px;
+        padding: 20px;
+    }
+
+    section.service-sec-two {
+        padding: 50px 0px 40px;
+    }
+
+    .cta-service::after {
+        height: 170px;
+        top: 54%;
+    }
+
+    .cta-service::before {
+        height: 180px;
+        right: -12px;
+        top: 20%;
+    }
+
+    .content-area .h5 {
+        line-height: 30px !important;
+        font-size: 20px !important;
+    }
+
+    .content-area .text-box {
+        height: 120px;
+        width: 49px;
+        left: -22px;
+    }
+
+    footer .cont-link {
+        font-size: 12px;
+    }
+
+    footer .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-bottom span {
+        font-size: 13px;
+    }
+
+    .footer-bottom a {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap .context_wrap h6 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        margin: 0px 0px 5px !important;
+    }
+
+    section.our-services .cards p {
+        font-size: 13px !important;
+    }
+
+    section.our-services .cards img {
+        width: 60px;
+        margin: 0px 0px 20px;
+    }
+
+    .position-relative.side-display {
+        justify-content: center;
+    }
+
+    .process-area .number {
+        margin: 0 auto 30px;
+    }
+
+    section.process-area {}
+
+    section.process-area h2.h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reviews-area .review-box p {
+        line-height: 23px;
+        font-size: 13px !important;
+    }
+
+    .reviews-area .review-box .client-name span:first-child {
+        font-size: 14px;
+    }
+    .service-sec-two ul li:before {
+        height: 16px;
+        padding-right: 20px;
+        width: 16px;
+    }
+    
+    .brands-slider {
+        
+    }
+    
+    section {
+        padding: 60px 0px;
+    }
+    
+    .cta-service .h5 {
+        margin-bottom: 18px !important;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    
+    .footer-bottom {
+        padding: 15px 0;
+    }
+    
+    footer .simple-img {
+        margin-bottom: 10px;
+        width: 90px;
+    }
+    
+    footer .footer_logo {
+        width: 150px;
+    }
+    section.our-services .cards {
+        padding: 20px;
+    }
+    
+    section.our-services .cards .h4 {
+        font-size: 16px !important;
+    }
+    
+    .process-area .btn-live {
+        padding: 8px 30px !important;
+    }
+    
+    .reviews-area .review-box {
+        margin: 12px 0 50px;
+        padding: 30px 20px 25px;
+    }
+    
+    .reviews-area .review-box .stars i {
+        font-size: 10px;
+    }
+    .reviews-area .review-box p {
+        max-height: 110px;
+        min-height: 100px;
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header .top-bar {
+        padding: 10px 0;
+    }
+
+    header .top-bar .menu-right .social-icons a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        font-size: 14px !important;
+        margin: 0 4px 0 0 !important;
+    }
+
+    header .top-bar .menu-right .social-icons {
+        gap: 5px;
+    }
+
+    header .top-bar .menu-right .connect .call-us {
+        gap: 4px;
+    }
+
+    header .top-bar .menu-right .connect a span {
+        font-size: 11px;
+    }
+
+    header .top-bar .menu-right .connect a i {
+        font-size: 16px;
+    }
+
+    header .top-bar .menu-right .connect .mail {
+        gap: 6px;
+    }
+
+    header .navbar .nav-link {
+        font-size: 12px;
+        margin: 0px 0px;
+        padding: 6px 0;
+    }
+
+    header .navbar .btn-chat {
+        margin: 10px 0px 10px;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .order_logo {
+        width: 145px;
+    }
+
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    header .navbar .btn-order {
+        padding: 10px 20px !important;
+        background: #a81821;
+    }
+
+    .btn-order {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap {
+        padding: 150px 0 20px;
+        height: auto;
+    }
+    .banner_section_wrap .position-relative.side-display {
+        justify-content: start;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 30px !important;
+        margin: 0px 0px 16px ! IMPORTANT;
+    }
+
+    .banner_section_wrap .off {
+        font-size: 6em;
+        right: 0;
+        top: 0;
+        position: relative;
+        line-height: normal;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        width: auto;
+        padding: 10px 10px;
+        font-size: 12px !important;
+        line-height: 20px;
+        position: relative;
+        top: 0;
+        text-align: left;
+    }
+
+    .banner_section_wrap .off-main:before {
+        width: 150px;
+        height: 30px;
+        right: 45%;
+        top: 44px;
+    }
+
+    .banner_section_wrap .off h4 {
+        font-size: 16px !important;
+        margin-top: 28%;
+    }
+
+    .btn-live {
+        font-size: 12px;
+        padding: 10px 20px !important;
+        margin: 0px 0px 10px !important;
+        width: 100%;
+    }
+    header .top-bar .menu-right .connect {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    header .top-bar .menu-right .social-icons {
+        display: none;
+    }
+    
+    .banner_section_wrap .main-img img {
+        margin: 20px 0px 0px;
+    }
+    .btn-call i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .btn-call {
+        font-size: 13px;
+        padding: 3px 25px 3px 5px;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .btn-call span .small,
+    .btn-call span small {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+    .btn-call:hover {
+        padding: 3px 25px 3px 5px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 10px !important;
+    }
+
+    p {
+        font-size: 13px !important;
+        line-height: 22px;
+        margin-bottom: 13px !important;
+    }
+
+    ul li {
+        font-size: 12px !important;
+        margin: 0px 0px 10px;
+    }
+
+    .main-banner-pattern .h5 {
+        margin-bottom: 15px !important;
+    }
+
+    .h5,
+    h5 {
+        font-size: 14px !important;
+    }
+
+    .h2,
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .main-banner-pattern {
+        padding: 30px 0px;
+    }
+
+    .main-banner-pattern form .form-control {
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0px 0px 10px !important;
+    }
+
+    .main-banner-pattern form {
+        max-width: 100%;
+        padding: 15px;
+        margin: 20px 0px 0px;
+    }
+
+    section.service-sec-two {
+        padding: 50px 0px 40px;
+    }
+
+    .cta-service::after {
+        height: 170px;
+        top: 54%;
+    }
+
+    .cta-service::before {
+        height: 180px;
+        right: -12px;
+        top: 20%;
+    }
+
+    .content-area .h5 {
+        line-height: 30px !important;
+        font-size: 20px !important;
+    }
+
+    .content-area .text-box {
+        height: 120px;
+        width: 50px;
+        left: -10px;
+    }
+
+    footer .cont-link {
+        font-size: 12px;
+    }
+
+    footer .social-icons a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-bottom span {
+        font-size: 13px;
+    }
+
+    .footer-bottom a {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap .context_wrap h6 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        margin: 0px 0px 5px !important;
+    }
+
+    section.our-services .cards p {
+        font-size: 13px !important;
+    }
+
+    section.our-services .cards img {
+        width: 60px;
+        margin: 0px 0px 20px;
+    }
+
+    .position-relative.side-display {
+        justify-content: center;
+    }
+
+    .process-area .number {
+        margin: 0 auto 30px;
+    }
+
+    section.process-area {}
+
+    section.process-area h2.h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reviews-area .review-box p {
+        line-height: 23px;
+        font-size: 13px !important;
+    }
+
+    .reviews-area .review-box .client-name span:first-child {
+        font-size: 14px;
+    }
+    .service-sec-two ul li:before {
+        height: 16px;
+        padding-right: 20px;
+        width: 16px;
+    }
+    
+    .brands-slider {
+        
+    }
+    
+    section {
+        padding: 30px 0px;
+    }
+    
+    .cta-service .h5 {
+        margin-bottom: 14px !important;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    
+    .footer-bottom {
+        padding: 15px 0;
+    }
+    
+    footer .simple-img {
+        margin-bottom: 10px;
+        width: 90px;
+    }
+    
+    footer .footer_logo {
+        width: 150px;
+        margin: 0px 0px 10px !important;
+    }
+    section.our-services .cards {
+        padding: 20px;
+    }
+    
+    section.our-services .cards .h4 {
+        font-size: 16px !important;
+    }
+    
+    .process-area .btn-live {
+        padding: 8px 30px !important;
+    }
+    
+    .reviews-area .review-box {
+        margin: 12px 0 50px;
+        padding: 30px 20px 25px;
+    }
+    
+    .reviews-area .review-box .stars i {
+        font-size: 10px;
+    }
+    .reviews-area .review-box p {
+        max-height: 110px;
+        min-height: 100px;
+        overflow: auto;
+    }
+    button.navbar-toggler {
+        background: #fff;
+        padding: 8px 8px;
+    }
+    footer .social-icons {
+        margin: 0px 0px 15px;
+        gap: 5px;
+    }
+    
+    .footer-bottom ul {
+        justify-content: center;
+    }
+    section.our-services .position-relative.side-display {
+        display: block;
+    }
+    
+    section.process-area h2.h3.d-block {
+        margin: 0px 0px 10px !important;
+    }
+    
+    .service-collection {
+        padding: 30px 0 70px;
+    }
+    
+    .service-collection .h2 {
+        margin: 0px 0px 10px !IMPORTANT;
+    }
+    
+    .service-collection .services-slider .splide__track .splide__list .splide__slide img {
+        height: 100%;
+    }
+    .content-area .main_jar .h5 {
+        text-align: left;
+    }
+        .navbar-collapse {
+        background-color: #a81821 !important;
+        text-align: left;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    ul.navbar-nav {
+        justify-content: start;
+        align-items: self-start !important;
+    }
+    
+    header .navbar .navbar-nav li {
+        line-height: 12px;
+    }
+    
+    header .navbar .btn-chat img {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    header .navbar .round {
+        animation: none;
+    }
+}
+
+/* Current hero/content overrides */
+@media(max-width:1199px) {
+    .banner_section_wrap {
+        min-height: 680px;
+        padding: 210px 0 80px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 46px !important;
+        line-height: 56px !important;
+        margin: 0 0 22px !important;
+    }
+
+    .banner_section_wrap .context_wrap p {
+        font-size: 20px !important;
+        line-height: 32px;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        font-size: 16px !important;
+        line-height: 26px;
+        position: static;
+        text-align: left;
+        top: auto;
+        width: auto;
+    }
+
+    .banner_section_wrap .off,
+    .banner_section_wrap .off-main,
+    .banner_section_wrap .off-main:before {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    .banner_section_wrap {
+        background-position: center;
+        min-height: auto;
+        padding: 190px 0 70px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 38px !important;
+        line-height: 46px !important;
+    }
+
+    .main-banner-pattern {
+        padding: 80px 24px;
+    }
+
+    .main-banner-pattern .col-12.col-lg-5 {
+        border-left: 0;
+        padding-left: 15px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 42px !important;
+        line-height: 50px !important;
+    }
+
+    .main-banner-pattern p {
+        font-size: 20px !important;
+        line-height: 32px;
+    }
+
+    .main-banner-pattern .items-service li {
+        font-size: 18px !important;
+        line-height: 28px;
+    }
+}
+
+@media(max-width:575px) {
+    .banner_section_wrap {
+        padding: 180px 0 58px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+
+    .banner_section_wrap .hero-actions {
+        display: block;
+    }
+
+    .banner_section_wrap .offer-badge {
+        justify-content: center;
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 34px !important;
+        line-height: 42px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+    header .top-bar {
+        padding: 10px 0;
+    }
+
+    header .top-bar .menu-right .social-icons a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        font-size: 14px !important;
+        margin: 0 4px 0 0 !important;
+    }
+
+    header .top-bar .menu-right .social-icons {
+        gap: 5px;
+    }
+
+    header .top-bar .menu-right .connect .call-us {
+        gap: 4px;
+    }
+
+    header .top-bar .menu-right .connect a span {
+        font-size: 11px;
+    }
+
+    header .top-bar .menu-right .connect a i {
+        font-size: 16px;
+    }
+
+    header .top-bar .menu-right .connect .mail {
+        gap: 6px;
+    }
+
+    header .navbar .nav-link {
+        font-size: 12px;
+        margin: 0px 0px;
+        padding: 6px 0;
+    }
+
+    header .navbar .btn-chat {
+        margin: 10px 0px 10px;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .order_logo {
+        width: 145px;
+    }
+
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    header .navbar .btn-order {
+        padding: 10px 20px !important;
+        background: #a81821;
+    }
+
+    .btn-order {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap {
+        padding: 150px 0 20px;
+        height: auto;
+    }
+    .banner_section_wrap .position-relative.side-display {
+        justify-content: start;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 30px !important;
+        margin: 0px 0px 16px ! IMPORTANT;
+    }
+
+    .banner_section_wrap .off {
+        font-size: 6em;
+        right: 0;
+        top: 0;
+        position: relative;
+        line-height: normal;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        width: auto;
+        padding: 10px 10px;
+        font-size: 12px !important;
+        line-height: 20px;
+        position: relative;
+        top: 0;
+        text-align: left;
+    }
+
+    .banner_section_wrap .off-main:before {
+        width: 150px;
+        height: 30px;
+        right: 45%;
+        top: 44px;
+    }
+
+    .banner_section_wrap .off h4 {
+        font-size: 16px !important;
+        margin-top: 28%;
+    }
+
+    .btn-live {
+        font-size: 12px;
+        padding: 10px 20px !important;
+        margin: 0px 0px 10px !important;
+        width: 100%;
+    }
+    header .top-bar .menu-right .connect {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    header .top-bar .menu-right .social-icons {
+        display: none;
+    }
+    
+    .banner_section_wrap .main-img img {
+        margin: 20px 0px 0px;
+    }
+    .btn-call i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .btn-call {
+        font-size: 13px;
+        padding: 3px 25px 3px 5px;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .btn-call span .small,
+    .btn-call span small {
+        font-size: 12px;
+        padding-top: 3px;
+    }
+
+    .btn-call:hover {
+        padding: 3px 25px 3px 5px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 10px !important;
+    }
+
+    p {
+        font-size: 13px !important;
+        line-height: 22px;
+        margin-bottom: 13px !important;
+    }
+
+    ul li {
+        font-size: 12px !important;
+        margin: 0px 0px 10px;
+    }
+
+    .main-banner-pattern .h5 {
+        margin-bottom: 15px !important;
+    }
+
+    .h5,
+    h5 {
+        font-size: 14px !important;
+    }
+
+    .h2,
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .main-banner-pattern {
+        padding: 30px 0px;
+    }
+
+    .main-banner-pattern form .form-control {
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0px 0px 10px !important;
+    }
+
+    .main-banner-pattern form {
+        max-width: 100%;
+        padding: 15px;
+        margin: 20px 0px 0px;
+    }
+
+    section.service-sec-two {
+        padding: 50px 0px 40px;
+    }
+
+    .cta-service::after {
+        height: 170px;
+        top: 54%;
+    }
+
+    .cta-service::before {
+        height: 180px;
+        right: -12px;
+        top: 20%;
+    }
+
+    .content-area .h5 {
+        line-height: 30px !important;
+        font-size: 20px !important;
+    }
+
+    .content-area .text-box {
+        height: 120px;
+        width: 50px;
+        left: -10px;
+    }
+
+    footer .cont-link {
+        font-size: 12px;
+    }
+
+    footer .social-icons a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-bottom span {
+        font-size: 13px;
+    }
+
+    .footer-bottom a {
+        font-size: 12px;
+    }
+
+    .banner_section_wrap .context_wrap h6 {
+        font-size: 15px !important;
+        line-height: 25px !important;
+        margin: 0px 0px 5px !important;
+    }
+
+    section.our-services .cards p {
+        font-size: 13px !important;
+    }
+
+    section.our-services .cards img {
+        width: 60px;
+        margin: 0px 0px 20px;
+    }
+
+    .position-relative.side-display {
+        justify-content: center;
+    }
+
+    .process-area .number {
+        margin: 0 auto 30px;
+    }
+
+    section.process-area {}
+
+    section.process-area h2.h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .reviews-area .review-box p {
+        line-height: 23px;
+        font-size: 13px !important;
+    }
+
+    .reviews-area .review-box .client-name span:first-child {
+        font-size: 14px;
+    }
+    .service-sec-two ul li:before {
+        height: 16px;
+        padding-right: 20px;
+        width: 16px;
+    }
+    
+    .brands-slider {
+        
+    }
+    
+    section {
+        padding: 30px 0px;
+    }
+    
+    .cta-service .h5 {
+        margin-bottom: 14px !important;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    
+    .footer-bottom {
+        padding: 15px 0;
+    }
+    
+    footer .simple-img {
+        margin-bottom: 10px;
+        width: 90px;
+    }
+    
+    footer .footer_logo {
+        width: 150px;
+        margin: 0px 0px 10px !important;
+    }
+    section.our-services .cards {
+        padding: 20px;
+    }
+    
+    section.our-services .cards .h4 {
+        font-size: 16px !important;
+    }
+    
+    .process-area .btn-live {
+        padding: 8px 30px !important;
+    }
+    
+    .reviews-area .review-box {
+        margin: 12px 0 50px;
+        padding: 30px 20px 25px;
+    }
+    
+    .reviews-area .review-box .stars i {
+        font-size: 10px;
+    }
+    .reviews-area .review-box p {
+        max-height: 110px;
+        min-height: 100px;
+        overflow: auto;
+    }
+    button.navbar-toggler {
+        background: #fff;
+        padding: 8px 8px;
+    }
+    footer .social-icons {
+        margin: 0px 0px 15px;
+        gap: 5px;
+    }
+    
+    .footer-bottom ul {
+        justify-content: center;
+    }
+    section.our-services .position-relative.side-display {
+        display: block;
+    }
+    
+    section.process-area h2.h3.d-block {
+        margin: 0px 0px 10px !important;
+    }
+    
+    .service-collection {
+        padding: 30px 0 70px;
+    }
+    
+    .service-collection .h2 {
+        margin: 0px 0px 10px !IMPORTANT;
+    }
+    
+    .service-collection .services-slider .splide__track .splide__list .splide__slide img {
+        height: 100%;
+    }
+    .content-area .main_jar .h5 {
+        text-align: left;
+    }
+        .navbar-collapse {
+        background-color: #a81821 !important;
+        text-align: left;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    ul.navbar-nav {
+        justify-content: start;
+        align-items: self-start !important;
+    }
+    
+    header .navbar .navbar-nav li {
+        line-height: 12px;
+    }
+    
+    header .navbar .btn-chat img {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    header .navbar .round {
+        animation: none;
+    }
+}
+
+/* Final typography scale overrides */
+@media(min-width:1200px) {
+    .banner_section_wrap {
+        min-height: min(720px, 100vh);
+        padding: 185px 0 72px;
+    }
+}
+
+@media(max-width:1199px) {
+    .main-banner-pattern {
+        padding: 62px 36px;
+    }
+
+    .banner_section_wrap {
+        min-height: min(660px, 100vh);
+        padding: 165px 0 58px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .banner_section_wrap .context_wrap p {
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+
+    .banner_section_wrap .context_wrap .label-heading {
+        font-size: 15px !important;
+        line-height: 25px;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 34px !important;
+        line-height: 42px !important;
+    }
+
+    .main-banner-pattern p {
+        font-size: 16px !important;
+        line-height: 27px;
+    }
+
+    .main-banner-pattern .items-service li {
+        font-size: 15px !important;
+        line-height: 24px;
+    }
+}
+
+@media(max-width:991px) {
+    .banner_section_wrap {
+        min-height: auto;
+        padding: 150px 0 54px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 34px !important;
+        line-height: 42px !important;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+}
+
+@media(max-width:575px) {
+    .banner_section_wrap {
+        padding: 142px 0 46px;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
+
+    .main-banner-pattern .h1 {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+}
