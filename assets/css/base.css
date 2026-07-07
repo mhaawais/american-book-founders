@@ -147,6 +147,24 @@ h6:after {
     padding: 11px 12px;
 }
 
+.site-modal__form .phone-field {
+    position: relative;
+}
+
+.site-modal__form .phone-field .country-select-toggle {
+    height: 43px;
+    min-height: 43px;
+    top: 25px;
+}
+
+.site-modal__form .phone-field .countryCode {
+    padding-left: 92px;
+}
+
+.site-modal__form .phone-field .country-code-menu {
+    top: 72px;
+}
+
 .site-modal__form textarea {
     min-height: 110px;
     resize: vertical;
@@ -202,6 +220,21 @@ h6:after {
         font-size: 16px;
         padding: 8px 10px;
         width: 100%;
+    }
+
+    .site-modal__form .phone-field .country-select-toggle {
+        height: 39px;
+        min-height: 39px;
+        top: 24px;
+    }
+
+    .site-modal__form .phone-field .countryCode {
+        padding-left: 88px;
+    }
+
+    .site-modal__form .phone-field .country-code-menu {
+        max-height: 180px;
+        top: 66px;
     }
 
     .site-modal__form textarea {

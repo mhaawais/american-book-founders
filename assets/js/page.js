@@ -113,6 +113,13 @@
                     return;
                 }
 
+                const phoneInput = form.querySelector(".countryCode");
+                const fullPhoneInput = form.querySelector(".fullPhoneNumber");
+
+                if (phoneInput && fullPhoneInput) {
+                    fullPhoneInput.value = (phoneInput.dataset.dial || "") + phoneInput.value.replace(/\D/g, "");
+                }
+
                 form.reset();
                 closeModal();
             });
