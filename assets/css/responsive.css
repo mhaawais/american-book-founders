@@ -1584,6 +1584,10 @@ footer .social-icons {
         min-height: min(640px, calc(100vh - 140px));
         padding: 72px 0 64px;
     }
+
+    .banner_section_wrap .context_wrap .hero-subheading {
+        margin-top: -27px !important;
+    }
 }
 
 @media(max-width:1199px) {
@@ -1598,12 +1602,17 @@ footer .social-icons {
 
     .banner_section_wrap .context_wrap h1 {
         font-size: 36px !important;
-        line-height: 44px !important;
+        line-height: 40px !important;
+        margin: 0 !important;
     }
 
     .banner_section_wrap .context_wrap p {
         font-size: 18px !important;
-        line-height: 30px;
+        line-height: 26px;
+    }
+
+    .banner_section_wrap .context_wrap .hero-subheading {
+        margin-top: -12px !important;
     }
 
     .banner_section_wrap .context_wrap .label-heading {
@@ -1635,7 +1644,12 @@ footer .social-icons {
 
     .banner_section_wrap .context_wrap h1 {
         font-size: 30px !important;
-        line-height: 38px !important;
+        line-height: 34px !important;
+        margin: 0 !important;
+    }
+
+    .banner_section_wrap .context_wrap .hero-subheading {
+        margin-top: -3px !important;
     }
 
     .main-banner-pattern .h1 {
@@ -1651,7 +1665,12 @@ footer .social-icons {
 
     .banner_section_wrap .context_wrap h1 {
         font-size: 25px !important;
-        line-height: 32px !important;
+        line-height: 29px !important;
+        margin: 0 !important;
+    }
+
+    .banner_section_wrap .context_wrap .hero-subheading {
+        margin-top: -1px !important;
     }
 
     .main-banner-pattern .h1 {
