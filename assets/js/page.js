@@ -7,6 +7,35 @@
         }
     }
 
+    function initStickyHeader() {
+        const header = document.querySelector("header");
+
+        if (!header) {
+            return;
+        }
+
+        let spacer = document.querySelector(".header-spacer");
+
+        if (!spacer) {
+            spacer = document.createElement("div");
+            spacer.className = "header-spacer";
+            header.insertAdjacentElement("afterend", spacer);
+        }
+
+        function syncHeaderHeight() {
+            document.documentElement.style.setProperty("--header-height", header.offsetHeight + "px");
+        }
+
+        syncHeaderHeight();
+        window.addEventListener("resize", syncHeaderHeight);
+
+        header.querySelectorAll("[data-bs-toggle='collapse']").forEach(function (toggle) {
+            toggle.addEventListener("click", function () {
+                setTimeout(syncHeaderHeight, 350);
+            });
+        });
+    }
+
     async function getUserIP() {
         try {
             const response = await fetch("https://api.ipapi.is/", {
@@ -407,6 +436,7 @@
 
         pageInitialized = true;
         setFooterYear();
+        initStickyHeader();
         getUserIP();
         initModal();
         initLeadForms();

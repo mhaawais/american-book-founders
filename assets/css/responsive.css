@@ -1659,3 +1659,175 @@ footer .social-icons {
         line-height: 36px !important;
     }
 }
+
+/* Final mobile header overrides */
+@media(max-width:991px) {
+    header .top-bar {
+        padding: 8px 0;
+    }
+
+    header .top-bar .menu-right {
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    header .top-bar .menu-right .connect {
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    header .top-bar .menu-right .connect .mail,
+    header .top-bar .menu-right .connect .call-us {
+        font-size: 13px;
+        gap: 6px;
+        line-height: 18px;
+        max-width: 100%;
+    }
+
+    header .top-bar .menu-right .connect a i {
+        font-size: 16px;
+    }
+
+    header .top-bar .menu-right .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        flex-basis: 100%;
+        font-size: 13px !important;
+        line-height: 18px !important;
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    header .top-bar .menu-right .social-icons a {
+        font-size: 14px;
+        height: 32px;
+        width: 32px;
+    }
+
+    header .navbar {
+        padding: 10px 0;
+    }
+
+    .order_logo {
+        width: min(190px, 58vw);
+    }
+
+    header .navbar .navbar-collapse {
+        background-color: #a81821 !important;
+        border-radius: 8px;
+        margin-top: 10px;
+        padding: 14px;
+    }
+
+    header .navbar .btn-chat,
+    header .navbar .round {
+        margin: 10px 0 0 !important;
+    }
+
+    header .navbar .btn-chat {
+        color: #fff;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header .navbar .round {
+        animation: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header .navbar .btn-order {
+        display: inline-flex;
+        justify-content: center;
+        white-space: normal;
+        width: 100%;
+    }
+
+    header .navbar .mobile-menu-contact {
+        border-bottom: 1px solid rgba(255, 255, 255, .22);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        width: 100%;
+    }
+
+    header .navbar .mobile-menu-contact .mail {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 13px;
+        gap: 8px;
+        justify-content: center;
+        line-height: 18px;
+        overflow-wrap: anywhere;
+        text-align: center;
+    }
+
+    header .navbar .mobile-menu-contact .social-icons {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header .navbar .mobile-menu-contact .social-icons a {
+        align-items: center;
+        background: #fff;
+        border-radius: 50%;
+        color: #091f44;
+        display: flex;
+        font-size: 14px;
+        height: 32px;
+        justify-content: center;
+        transition: background-color .25s ease, color .25s ease, transform .25s ease;
+        width: 32px;
+    }
+
+    header .navbar .mobile-menu-contact .social-icons a:hover {
+        background: #ffd700;
+        color: #091f44;
+        transform: translateY(-2px);
+    }
+
+    header .navbar .mobile-menu-contact .mail:hover {
+        color: #ffd700;
+    }
+}
+
+@media(max-width:575px) {
+    header .top-bar .menu-right .connect {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    header .top-bar .menu-right .connect .mail,
+    header .top-bar .menu-right .connect .call-us {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    header .top-bar .menu-right .social-icons .h6 {
+        display: none;
+    }
+
+    header .top-bar .menu-right .connect .mail,
+    header .top-bar .menu-right .social-icons {
+        display: none;
+    }
+}
