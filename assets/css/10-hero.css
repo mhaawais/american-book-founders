@@ -1,12 +1,40 @@
 .banner_section_wrap{
-    background: url("../bg-images/bg.png") no-repeat center right / cover;
-    background-attachment: scroll;
-    min-height: min(720px, 100vh);
-    padding: 140px 0 72px;
+    background-color: #091f44;
+    min-height: min(640px, calc(100vh - 140px));
+    padding: 72px 0 64px;
     height: auto;
     width: 100%;
     position: relative;
     overflow: hidden;
+}
+
+.banner_section_wrap::before {
+    background: url("../bg-images/bg.jpg") no-repeat center center / 100% 100%;
+    content: "";
+    inset: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.banner_section_wrap::after {
+    background: linear-gradient(90deg, rgba(9, 31, 68, .92) 0%, rgba(9, 31, 68, .78) 48%, rgba(9, 31, 68, .28) 100%);
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner_section_wrap > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.banner_section_wrap *,
+.banner_section_wrap *::before,
+.banner_section_wrap *::after {
+    box-sizing: border-box;
 }
 
 .banner_section_wrap .context_wrap{
@@ -15,6 +43,11 @@
     flex-direction: column;
     gap: 16px;
     max-width: 650px;
+    width: min(650px, 100%);
+}
+
+.banner_section_wrap .context_wrap > * {
+    max-width: 100%;
 }
 .banner_section_wrap .context_wrap p {
     color: #fff;
@@ -42,6 +75,7 @@
     font-weight: 800;
     margin: 0 !important;
     max-width: 600px;
+    overflow-wrap: anywhere;
     text-shadow: 0 2px 8px rgba(0, 0, 0, .3);
 }
 .banner_section_wrap .context_wrap h1 span{
@@ -52,6 +86,7 @@
     font-size: 17px !important;
     line-height: 29px;
     text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+    overflow-wrap: anywhere;
 }
 .banner_section_wrap .context_wrap .label-heading{
     color: #fff;
@@ -63,6 +98,7 @@
     line-height: 25px;
     margin: 0 !important;
     max-width: 600px;
+    overflow-wrap: anywhere;
     padding: 15px 18px;
     position: static;
     text-align: left;
@@ -76,6 +112,11 @@
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 4px;
+    max-width: 100%;
+}
+
+.banner_section_wrap .hero-actions .btn-live {
+    white-space: normal;
 }
 
 .banner_section_wrap .offer-badge {
@@ -94,7 +135,7 @@
 
 @media (max-width: 991px) {
     .banner_section_wrap {
-        padding: 100px 0 60px;
+        padding: 56px 0 52px;
     }
 
     .banner_section_wrap .context_wrap {
@@ -108,7 +149,7 @@
 
 @media (max-width: 575px) {
     .banner_section_wrap {
-        padding: 80px 0 50px;
+        padding: 44px 0 40px;
         min-height: auto;
     }
 

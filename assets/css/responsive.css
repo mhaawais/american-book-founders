@@ -1097,9 +1097,12 @@ footer .social-icons {
 
 @media(max-width:991px) {
     .banner_section_wrap {
-        background-position: center;
         min-height: auto;
         padding: 190px 0 70px;
+    }
+
+    .banner_section_wrap::before {
+        background-image: url("../bg-images/tab-background-image.jpg");
     }
 
     .banner_section_wrap .context_wrap h1 {
@@ -1135,6 +1138,10 @@ footer .social-icons {
 @media(max-width:575px) {
     .banner_section_wrap {
         padding: 180px 0 58px;
+    }
+
+    .banner_section_wrap::before {
+        background-image: url("../bg-images/mobile-background-image.jpg");
     }
 
     .banner_section_wrap .context_wrap h1 {
@@ -1574,8 +1581,8 @@ footer .social-icons {
 /* Final typography scale overrides */
 @media(min-width:1200px) {
     .banner_section_wrap {
-        min-height: min(720px, 100vh);
-        padding: 185px 0 72px;
+        min-height: min(640px, calc(100vh - 140px));
+        padding: 72px 0 64px;
     }
 }
 
@@ -1585,13 +1592,13 @@ footer .social-icons {
     }
 
     .banner_section_wrap {
-        min-height: min(660px, 100vh);
-        padding: 165px 0 58px;
+        min-height: auto;
+        padding: 64px 0 56px;
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 40px !important;
-        line-height: 50px !important;
+        font-size: 36px !important;
+        line-height: 44px !important;
     }
 
     .banner_section_wrap .context_wrap p {
@@ -1623,12 +1630,12 @@ footer .social-icons {
 @media(max-width:991px) {
     .banner_section_wrap {
         min-height: auto;
-        padding: 150px 0 54px;
+        padding: 52px 0 48px;
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 34px !important;
-        line-height: 42px !important;
+        font-size: 30px !important;
+        line-height: 38px !important;
     }
 
     .main-banner-pattern .h1 {
@@ -1639,12 +1646,12 @@ footer .social-icons {
 
 @media(max-width:575px) {
     .banner_section_wrap {
-        padding: 142px 0 46px;
+        padding: 40px 0 38px;
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 30px !important;
-        line-height: 38px !important;
+        font-size: 25px !important;
+        line-height: 32px !important;
     }
 
     .main-banner-pattern .h1 {
