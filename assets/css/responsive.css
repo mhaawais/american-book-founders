@@ -1601,14 +1601,16 @@ footer .social-icons {
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 36px !important;
-        line-height: 40px !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
         margin: 0 !important;
     }
 
     .banner_section_wrap .context_wrap p {
-        font-size: 18px !important;
-        line-height: 26px;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 16px !important;
+        line-height: 24px;
     }
 
     .banner_section_wrap .context_wrap .hero-subheading {
@@ -1643,8 +1645,9 @@ footer .social-icons {
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 30px !important;
-        line-height: 34px !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
         margin: 0 !important;
     }
 
@@ -1664,8 +1667,9 @@ footer .social-icons {
     }
 
     .banner_section_wrap .context_wrap h1 {
-        font-size: 25px !important;
-        line-height: 29px !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
         margin: 0 !important;
     }
 

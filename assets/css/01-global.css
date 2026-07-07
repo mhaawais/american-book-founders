@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 
 body,
 html {
-    font-family: roboto !important;
+    font-family: 'Poppins', sans-serif !important;
     overflow-x: hidden;
     position: relative;
     scrollbar-color: #091f44 #f1f1f1
@@ -45,7 +45,7 @@ h5,
 h6 {
     color: #000;
     display: inline-block !important;
-    font-family: tilt-warp;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 18px !important
 }
 
@@ -78,6 +78,10 @@ h5 {
 .h6,
 h6 {
     font-size: 20px !important
+}
+
+body :where(a, button, input, textarea, select, label, span, p, li, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading) {
+    font-family: 'Poppins', sans-serif !important;
 }
 
 p {

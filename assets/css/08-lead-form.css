@@ -74,7 +74,7 @@
     content: "✓";
     display: flex;
     flex: 0 0 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 900;
     height: 20px;
@@ -93,7 +93,7 @@
     background: #fff;
     border: 5px solid #091f44;
     border-radius: 10px;
-    font-family: roboto !important;
+    font-family: 'Poppins', sans-serif !important;
     margin: 0 0 0 auto;
     max-width: 576px;
     padding: 24px 26px;
@@ -283,7 +283,7 @@
 .main-banner-pattern form .form-control.text-us {
     background-color: #fff !important;
     border: 1px solid rgba(9, 31, 68, .22) !important;
-    font-family: roboto !important;
+    font-family: 'Poppins', sans-serif !important;
     padding: 15px;
     resize: none
 }
