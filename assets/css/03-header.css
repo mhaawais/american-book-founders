@@ -269,7 +269,6 @@ header .navbar .dropdown:hover .dropdown-menu {
 
 header.fixed-top {
     background: #fff;
-    border-bottom: 1px solid rgba(88, 53, 110, .349);
     transition: background-color 1s
 }
 

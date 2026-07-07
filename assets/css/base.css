@@ -6,6 +6,139 @@
     src: url("../fonts/vendor/tilt-warp/tilt-warp-regular.woff2") format("woff2");
 }
 
+body,
+html {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    overflow-x: hidden;
+    position: relative;
+    scrollbar-color: #091f44 #f1f1f1
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+    color: #000;
+    display: inline-block !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 18px !important
+}
+
+p {
+    color: #000;
+    font-size: 18px !important;
+    line-height: 30px;
+    margin-bottom: 25px !important;
+    font-weight: 400;
+}
+
+.content-area .main-img img,
+.our-services .feature-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.h1:after,
+.h2:after,
+.h3:after,
+.h4:after,
+.h5:after,
+.h6:after,
+h1:after,
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after {
+    content: none !important;
+}
+
+.site-modal {
+    align-items: center;
+    background: rgba(9, 31, 68, .72);
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    opacity: 0;
+    padding: 20px;
+    position: fixed;
+    transition: opacity .25s ease, visibility .25s ease;
+    visibility: hidden;
+    z-index: 9999;
+}
+
+.site-modal.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.site-modal__dialog {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, .2);
+    max-width: 560px;
+    padding: 32px;
+    position: relative;
+    width: 100%;
+}
+
+.site-modal__close {
+    background: transparent;
+    border: 0;
+    color: #091f44;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+}
+
+.site-modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.site-modal__form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #091f44;
+}
+
+.site-modal__form input,
+.site-modal__form textarea {
+    border: 1px solid rgba(9, 31, 68, .2);
+    border-radius: 10px;
+    padding: 11px 12px;
+}
+
+.site-modal__form textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
 @font-face {
     font-display: swap;
     font-family: "roboto";

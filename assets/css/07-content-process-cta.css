@@ -40,13 +40,7 @@
 }
 
 .process-area .h2:after {
-    background: linear-gradient(90deg, #091f44 0%, #0c2043 55%, #a81821 100%);
-    border-radius: 999px;
-    content: "";
-    display: block;
-    height: 5px;
-    margin: 16px auto 0;
-    width: 92px;
+    content: none;
 }
 
 .process-area p {
@@ -56,18 +50,7 @@
 }
 
 .process-area .lines:before {
-    background: url(../images/bg/dashed-arrows.html) no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    content: "";
-    height: 104px;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 80%;
-    z-index: -1
+    content: none;
 }
 
 .process-area .lines .col-12.col-lg-4.col-md-6 {
@@ -81,24 +64,24 @@
 
 .process-area .number {
     align-items: center;
-    background: #fff;
+    background: #f4f5f7;
     border-radius: 50px;
-    box-shadow: 0 12px 32px -5px rgba(0, 0, 0, .28);
     color: #a81821;
     display: flex;
     font-size: 30px;
     height: 80px;
     justify-content: center;
-    margin: 0 auto 55px;
+    margin: 0 auto 30px;
     position: relative;
-    width: 80px
+    width: 80px;
+    box-shadow: none;
 }
 
 .process-area .lines .col-12.col-lg-4.col-md-6 {
-    background: #fff;
-    border: 1px solid rgba(153, 0, 0, .1);
-    border-radius: 8px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .055);
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
     padding-bottom: 28px;
     padding-top: 28px;
 }

@@ -6,6 +6,9 @@
 <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type=image/png sizes="32x32" href="https://instantbookpublishers.com/images/favicon.png">
     <title>Your Book. Your Name. Your Legacy. | American Book Founders</title>
     <meta name="description" content="American Book Founders helps self-published authors move from manuscript to marketplace with formatting, ISBN, cover design, distribution, and real publishing support while authors keep full ownership and rights.">
@@ -95,6 +98,29 @@
     <div data-component="components/reviews.html"></div>
     <div data-component="components/content.html"></div>
     <div data-component="components/footer.html"></div>
+
+    <div class="site-modal" id="ctaModal" aria-hidden="true">
+        <div class="site-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="ctaModalTitle">
+            <button class="site-modal__close" type="button" data-close-modal aria-label="Close dialog">×</button>
+            <h3 id="ctaModalTitle">Book Your Free Publishing Consultation</h3>
+            <p>Share a few details and we’ll reach out with a clear plan for your next book.</p>
+            <form id="ctaModalForm" class="site-modal__form">
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    <span>Message</span>
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <button type="submit" class="btn-order">Request a Consultation</button>
+            </form>
+        </div>
+    </div>
 
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
