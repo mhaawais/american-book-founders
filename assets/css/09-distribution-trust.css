@@ -6,6 +6,9 @@
 section.our-services .h2 {
     color: #171717;
     display: block !important;
+    font-size: 34px !important;
+    line-height: 42px !important;
+    margin-bottom: 14px !important;
 }
 
 .service-sec-two .h2:after,
@@ -28,8 +31,9 @@ section.our-services .text-center .h2:after {
 .service-sec-two p,
 section.our-services p {
     color: #3d3d3d;
-    font-size: 20px !important;
-    line-height: 32px;
+    font-size: 17px !important;
+    line-height: 28px;
+    margin-bottom: 18px !important;
 }
 
 .brands-slider img {
@@ -41,8 +45,12 @@ section.our-services p {
 
 
 .service-sec-two ul {
-    display: flex;
-    flex-flow: wrap
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .service-sec-two ul li {
@@ -52,12 +60,13 @@ section.our-services p {
     border-radius: 8px;
     box-shadow: 0 10px 24px rgba(0, 0, 0, .05);
     display: flex;
-    font-size: 18px !important;
+    font-size: 15px !important;
     font-weight: 600;
-    line-height: 28px;
-    margin: 0 12px 12px 0;
-    padding: 12px 14px;
-    width: calc(50% - 12px)
+    line-height: 22px;
+    margin: 0;
+    min-height: 64px;
+    padding: 14px 14px 14px 12px;
+    width: 100%;
 }
 
 .service-sec-two ul li:before {
@@ -166,11 +175,15 @@ section.our-services hr {
 
 @media(min-width:992px)and (max-width:1199px) {
     .service-sec-two ul li {
-        font-size: 14px !important
+        font-size: 14px !important;
+        line-height: 20px;
     }
 }
 
 @media(max-width:991px) {
+    .service-sec-two ul {
+        grid-template-columns: 1fr;
+    }
 
     section ul li {
         justify-content: center;
@@ -192,11 +205,159 @@ section.our-services hr {
     }
 }
 
+@media(max-width:575px) {
+    .service-sec-two .h2 {
+        font-size: 26px !important;
+        line-height: 34px !important;
+    }
+
+    .service-sec-two p {
+        font-size: 15px !important;
+        line-height: 24px;
+    }
+
+    .service-sec-two ul li {
+        font-size: 14px !important;
+        min-height: 58px;
+        padding: 12px 12px 12px 10px;
+    }
+}
+
 @media(max-width:767px) {
     .main-banner-pattern form:before,
         section.our-services .side-display:before,
         section.our-services:before {
             content: none
+    }
+}
+
+/* Distribution section reference layout */
+.service-sec-two .h2,
+section.our-services .h2 {
+    font-size: 36px !important;
+    line-height: 44px !important;
+    margin-bottom: 12px !important;
+}
+
+.service-sec-two p,
+section.our-services p {
+    font-size: 16px !important;
+    line-height: 26px;
+    margin-bottom: 16px !important;
+}
+
+.distribution-feature-box {
+    border: 3px solid #111;
+    max-width: 560px;
+    margin-top: 12px;
+    padding: 12px 14px;
+}
+
+.service-sec-two ul.distribution-features {
+    display: grid;
+    gap: 8px 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.service-sec-two ul.distribution-features li {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: 13px !important;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.service-sec-two ul.distribution-features li:before {
+    content: none !important;
+    display: none !important;
+}
+
+.service-sec-two ul.distribution-features li i {
+    align-items: center;
+    background: rgba(201, 76, 13, .14);
+    border: 1px solid rgba(201, 76, 13, .26);
+    border-radius: 50%;
+    color: #c94c0d;
+    display: flex;
+    flex: 0 0 16px;
+    height: 16px;
+    justify-content: center;
+    width: 16px;
+}
+
+.service-sec-two ul.distribution-features li span {
+    display: block;
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .service-sec-two ul.distribution-features li {
+        font-size: 13px !important;
+        line-height: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .service-sec-two ul.distribution-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:575px) {
+    .service-sec-two .h2 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+
+    .service-sec-two p {
+        font-size: 14px !important;
+        line-height: 22px;
+    }
+
+    .distribution-feature-box {
+        max-width: 100%;
+        padding: 12px 12px;
+    }
+
+    .service-sec-two ul.distribution-features li {
+        font-size: 13px !important;
+        line-height: 18px;
+    }
+}
+
+.trust-cta-row {
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+
+section.our-services .trust-cta-row .side-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+section.our-services .trust-cta-row .btn-live,
+section.our-services .trust-cta-row .btn-call {
+    margin-top: 0 !important;
+}
+
+.trust-section-divider {
+    border: 0;
+    border-top: 2px solid rgba(9, 31, 68, .28);
+    margin: 18px auto 28px;
+    max-width: 640px;
+    width: 100%;
+}
+
+@media(max-width:575px) {
+    .trust-section-divider {
+        margin: 16px auto 22px;
     }
 }
 

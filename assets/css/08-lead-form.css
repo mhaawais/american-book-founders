@@ -180,12 +180,13 @@
     border-radius: 6px 0 0 6px;
     display: flex;
     gap: 6px;
-    height: calc(100% - 15px);
+    height: 52px;
     left: 0;
-    min-height: 50px;
-    padding: 0 8px;
+    min-height: 52px;
+    padding: 0 10px;
     position: absolute;
     top: 0;
+    width: 96px;
     z-index: 5;
 }
 .selected-dial-code {
@@ -211,7 +212,7 @@
     overflow-y: auto;
     position: absolute;
     right: 0;
-    top: 56px;
+    top: 54px;
     z-index: 20;
 }
 .phone-field.is-open .country-code-menu {
@@ -272,7 +273,8 @@
     opacity: 1;
 }
 .main-banner-pattern form .countryCode {
-    padding-left: 112px !important;
+    height: 52px;
+    padding-left: 108px !important;
 }
 
 .main-banner-pattern form .form-control:focus {

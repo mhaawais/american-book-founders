@@ -1586,7 +1586,7 @@ footer .social-icons {
     }
 
     .banner_section_wrap .context_wrap .hero-subheading {
-        margin-top: -27px !important;
+        margin-top: -34px !important;
     }
 }
 
@@ -1852,5 +1852,54 @@ footer .social-icons {
     header .top-bar .menu-right .connect .mail,
     header .top-bar .menu-right .social-icons {
         display: none;
+    }
+}
+
+@media(min-width:1200px) {
+    .banner_section_wrap .context_wrap {
+        gap: 5px !important;
+    }
+
+    .banner_section_wrap .context_wrap h1 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .banner_section_wrap .context_wrap .hero-subheading {
+        margin: 4px 0 0 !important;
+        padding: 0 !important;
+    }
+}
+
+/* Lead form phone field alignment */
+.main-banner-pattern form .phone-field .country-select-toggle {
+    height: 52px;
+    min-height: 52px;
+    width: 96px;
+}
+
+.main-banner-pattern form .phone-field .country-code-menu {
+    top: 54px;
+}
+
+.main-banner-pattern form .phone-field .countryCode {
+    height: 52px;
+    padding-left: 108px !important;
+}
+
+@media(max-width:575px) {
+    .main-banner-pattern form .phone-field .country-select-toggle {
+        height: 42px;
+        min-height: 42px;
+        width: 88px;
+    }
+
+    .main-banner-pattern form .phone-field .country-code-menu {
+        top: 44px;
+    }
+
+    .main-banner-pattern form .phone-field .countryCode {
+        height: 42px;
+        padding-left: 98px !important;
     }
 }
